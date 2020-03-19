@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/facebook"
+            android:title="Follow us in facebook" />
+        <item
+            android:id="@+id/rateid"
+            android:icon="@drawable/ic_star_border_black_24dp"
+            android:title="Rate App" />
+        <item
+            android:id="@+id/moreappsmend"
+            android:icon="@drawable/playstore"
+            android:title="More Apps" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="EXIT" />
+    </group>
+
+    <item android:title="Our Other Apps">
+        <menu>
+            <item
+                android:id="@+id/gk"
+                android:icon="@drawable/ic_get_app_black_24dp"
+                android:title="Moral Stories" />
+            <item
+                android:id="@+id/EnglishSikun"
+                android:icon="@drawable/ic_get_app_black_24dp"
+                android:title="Idioms and Phrases" />
+        </menu>
+    </item>
+</menu>

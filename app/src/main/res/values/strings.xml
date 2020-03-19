@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Self Love</string>
+
+    <string name="title_about">About</string>
+
+    <string name="title_share">Share</string>
+
+    <string name="title_update">Update</string>
+
+    <string name="navigation_drawer_open">navigation_drawer_Open</string>
+
+    <string name="navigation_drawer_close">navigation_drawer_Close</string>
+
+    <string name="about">\n Powered By Code Mix\n\n Copyright ©2020\n\n App Name:\n Power Of Positive Think\n\n All Rights Reserved\n\n If you have any complains regarding the content of this app; kindly email me. I must solve it instantly.\n\n Any suggestions would be highly appreciated about this app.\n\n My email: codemix7@gmail.com.\n\nThanks all." </string>
+
+    <string name="title_activity_suchona">suchona</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

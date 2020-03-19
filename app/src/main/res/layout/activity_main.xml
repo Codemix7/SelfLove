@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+
+    android:background="@drawable/backpic"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:columnCount="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/book"
+                    style="@style/mainbtnstylecodenewps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="think1"
+                    android:text="Introduction" />
+
+                <Button
+                    android:id="@+id/book1"
+                    android:onClick="think2"
+                    style="@style/mainbtnstylecodenewps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Overcome Doubt And Negative Thinking Now " />
+
+                <Button
+                    android:id="@+id/book2"
+                    style="@style/mainbtnstylecodenewps"
+                    android:onClick="think3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Power Of Positive Thinking " />
+                <Button
+                    android:id="@+id/book3"
+                    style="@style/mainbtnstylecodenewps"
+                    android:onClick="think4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Powerful Habits Which Lead To Positive Thinking" />
+                <Button
+                    android:id="@+id/book4"
+                    android:onClick="think5"
+                    style="@style/mainbtnstylecodenewps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Self-Belief And Self-Confidence Can Help You Become A More Positive Person " />
+                <Button
+                    android:id="@+id/book5"
+                    android:onClick="think6"
+                    style="@style/mainbtnstylecodenewps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Surround Yourself With Positive People" />
+                <Button
+                    android:id="@+id/book6"
+                    android:onClick="think7"
+                    style="@style/mainbtnstylecodenewps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A Little Humor Goes A Long Way  " />
+                <Button
+                    android:id="@+id/book7"
+                    android:onClick="think8"
+                    style="@style/mainbtnstylecodenewps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Health Benefits Of Positive Thinking " />
+                <Button
+                    android:id="@+id/book8"
+                    android:onClick="think9"
+                    style="@style/mainbtnstylecodenewps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Strive For Excellence, Not Perfection " />
+                <Button
+                    android:id="@+id/book9"
+                    android:onClick="think10"
+                    style="@style/mainbtnstylecodenewps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Visualization And Its Role In Your Success" />
+                <Button
+                    android:id="@+id/book10"
+                    android:onClick="think11"
+                    style="@style/mainbtnstylecodenewps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Spread Your Positivity" />
+
+
+
+
+
+
+
+            </GridLayout>
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationid"
+        app:headerLayout="@layout/nav_header"
+        app:itemTextColor="@android:color/white"
+        app:menu="@menu/nav_menu_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/backpic" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
